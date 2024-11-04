@@ -1,0 +1,3 @@
+erl -name stats_node_test@127.0.0.1 -setcookie "cookie_123456789"
+
+{mboxDirector, 'director@127.0.0.1'} ! {fl_start_str_run, {"fcmeans", python, 1, 1, 2, "max_number_rounds", none, 10, "{  \"algorithm\": \"fcmeans\",  \"clientSelectionStrategy\": 1,  \"minNumberClients\": 2,  \"stopCondition\": null,  \"stopConditionThreshold\": null,  \"maxNumberOfRounds\": 10,  \"parameters\": {     \"numFeatures\": 16,     \"numClusters\": 10,     \"targetFeature\": 16,     \"lambdaFactor\": 2,     \"seed\": 10  }}"}, self()}.
