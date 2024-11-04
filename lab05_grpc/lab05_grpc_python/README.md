@@ -14,13 +14,13 @@ This project makes use of a Virtual Environment handled by Pipenv. To install ne
 ### Install the virtual environment (do this step once)
 
 ```bash
-jose@uss-defiant:~/repository/UNIPI/DSMT/unipi-dsmt-2024-2025/lab02_grpc/lab02_grpc_python$ pipenv install
+jose@uss-defiant:~/repository/UNIPI/DSMT/unipi-dsmt-2024-2025/lab05_grpc/lab05_grpc_python$ pipenv install
 ```
 
 ### Activate the virtual environment
 
 ```bash
-jose@uss-defiant:~/repository/UNIPI/DSMT/unipi-dsmt-2024-2025/lab02_grpc/lab02_grpc_python$ pipenv shell
+jose@uss-defiant:~/repository/UNIPI/DSMT/unipi-dsmt-2024-2025/lab05_grpc/lab05_grpc_python$ pipenv shell
 ```
 
 ### To generate the GRPC classes (run this command inside the virtual environment)
